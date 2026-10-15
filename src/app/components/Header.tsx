@@ -70,9 +70,10 @@ export function Header() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
           >
-            <Button variant="ghost" className="text-gray-300 hover:text-white hover:bg-gray-800">Sign In</Button>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white">Get Started</Button>
+              <Button asChild className="bg-blue-600 hover:bg-blue-700 text-white">
+                <a href="/contact">Request Manpower</a>
+              </Button>
             </motion.div>
           </motion.div>
 
@@ -111,8 +112,10 @@ export function Header() {
                   </motion.a>
                 ))}
                 <div className="pt-4 flex flex-col space-y-2">
-                  <Button variant="ghost" className="text-gray-300 hover:text-white hover:bg-gray-800">Sign In</Button>
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white">Get Started</Button>
+                  
+                  <Button asChild className="bg-blue-600 hover:bg-blue-700 text-white">
+                <a href="/contact">Request Manpower</a>
+              </Button>
                 </div>
               </nav>
             </motion.div>

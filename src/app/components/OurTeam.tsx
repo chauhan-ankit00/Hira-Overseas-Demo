@@ -5,7 +5,7 @@ const teamMembers = [
     name: 'Shahzad Khan',
     role: 'FOUNDER & CEO',
     description: '10+ years of leadership experience in international talent acquisition and workforce solutions, driving strategic global recruitment',
-    image: new URL('../../img/team-1.jpeg', import.meta.url).href,
+    image: new URL('../../img/team-1.png', import.meta.url).href,
   },
   {
     name: 'MD Adam Younus',
