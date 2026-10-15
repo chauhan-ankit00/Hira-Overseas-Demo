@@ -46,7 +46,7 @@ export default function App() {
             <Hero />
             <About />
             <Features />
-            <GlobalReach />
+          
             <Services />
             <Career />
             <GlobalReach />
