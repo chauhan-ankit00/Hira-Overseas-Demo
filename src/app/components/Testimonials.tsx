@@ -85,7 +85,7 @@ export function Testimonials() {
           transition={{ duration: 0.6 }}
         >
           <div className="inline-flex items-center px-4 py-2 bg-blue-600/20 backdrop-blur-sm rounded-full text-blue-300 text-sm mb-4 border border-blue-500/30">
-            TESTINOMIALS
+            TESTIMONIAL
           </div>
           <h2 className="text-4xl md:text-5xl text-white mb-4">
             What Our Clients Say
