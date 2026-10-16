@@ -4,10 +4,10 @@ import { motion } from 'motion/react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
+import { siteConfig } from '../../lib/siteConfig';
 
-const contactEmail = 'hiraenterprisesdel@gmail.com';
-const officeAddress =
-  'CV Raman Marg, Sarai Jullena, New Friends Colony, New Delhi, Delhi 110025';
+const contactEmail = siteConfig.contact.email;
+const officeAddress = siteConfig.contact.address;
 const mapUrl = `https://www.google.com/maps?q=${encodeURIComponent(officeAddress)}&output=embed`;
 
 export function Contact() {
@@ -160,7 +160,7 @@ export function Contact() {
                     Our Office
                   </h3>
                   <a
-                    href={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.24153976673!2d77.26681317572327!3d28.621040775685173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3f0aa23aed5%3A0x5e1fccb4d48752e7!2sCV%20Raman%20Marg%2C%20Sarai%20Jullena%2C%20New%20Friends%20Colony%2C%20New%20Delhi%2C%20Delhi%20110025!5e0!3m2!1sen!2sin!4v1707055123456`}
+                        href="https://www.google.com/maps/search/?api=1&query=CV+Raman+Marg+Sarai+Jullena+New+Friends+Colony+New+Delhi+110025"
                     target="_blank"
                     rel="noreferrer"
                     className="leading-relaxed text-white hover:text-blue-200"

@@ -444,6 +444,7 @@ export function Career() {
                     {jobs.map((job) => (
                       <option key={job.id} value={job.title}>{job.title}</option>
                     ))}
+                    <option value="Other">Other</option>
                   </select>
                 </label>
                 <label className="text-sm text-gray-200 sm:col-span-2">

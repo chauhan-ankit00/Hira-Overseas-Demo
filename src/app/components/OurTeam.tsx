@@ -4,25 +4,25 @@ const teamMembers = [
   {
     name: 'Shahzad Khan',
     role: 'FOUNDER & CEO',
-    description: '10+ years of leadership experience in international talent acquisition and workforce solutions, driving strategic global recruitment',
+    description: 'Leads strategic recruitment planning and international workforce mobilization for clients across priority markets.',
     image: new URL('../../img/team-1.png', import.meta.url).href,
   },
   {
     name: 'MD Adam Younus',
     role: 'OVERSEAS MANAGER',
-    description: 'Leverages data-driven sourcing and behavioral competency frameworks to deliver high-performing talent for cross-border placements.',
+    description: 'Coordinates cross-border hiring, employer alignment, and candidate support for overseas placements.',
     image: new URL('../../img/team-2.jpeg', import.meta.url).href,
   },
   {
-    name: 'Team Member 3',
+    name: 'Team member 3',
     role: 'International Recruitment',
-    description: 'Supports employers and candidates throughout the international hiring journey.',
+    description: 'Supports employers and candidates throughout the international hiring journey with screening and coordination.',
     image: new URL('../../img/', import.meta.url).href,
   },
   {
     name: 'Team Member 4',
     role: 'Deployment & Candidate Support',
-    description: 'Helps candidates prepare for a smooth, well-supported transition to their new roles.',
+    description: 'Helps candidates prepare for a smooth, well-supported transition to their new roles and destinations.',
     image: new URL('../../img/', import.meta.url).href,
   },
 ];
